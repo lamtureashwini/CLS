@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="CLS.CLS_Form">
+        <methods>
+          <include name="fill_form_2stpage"/>
+          <include name="fill_form_4thpage"/>
+          <include name="tearDown"/>
+          <include name="fill_form_1stpage"/>
+          <include name="fill_form_3rdpage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- CLS.CLS_Form -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
